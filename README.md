@@ -1,6 +1,6 @@
 # CESIS chart-recovery pipeline (ISHI edition)
 
-Open-source software that turns scanned, handwritten surgical charts into a structured, analysis-ready case log. It was built for the International Surgical Health Initiative (ISHI) at Rutgers New Jersey Medical School. It is part of the Center for Equitable Surgical Information Systems (CESIS) effort: a bridge between paper charts and an electronic medical record for surgical programs in low-resource settings.
+Open-source software that turns scanned, handwritten surgical charts into a structured, analysis-ready case log. It was built for the International Surgical Health Initiative (ISHI). It is part of the Center for Equitable Surgical Information Systems (CESIS) effort: a bridge between paper charts and an electronic medical record for surgical programs in low-resource settings.
 
 This repository holds **version 1.0**, the exact code used in:
 
@@ -88,4 +88,4 @@ Licensed under the [Apache License 2.0](LICENSE). You may use, modify and redist
 
 ## Acknowledgments
 
-Developed with support from the Center for Global Surgery, Rutgers New Jersey Medical School. We thank the surgical teams at Kabala Government Hospital (Sierra Leone) and Tetteh Quarshie Memorial Hospital (Ghana), and the ISHI volunteers whose records made this work possible.
+Developed with support from Dr. Ziad Sifri and the International Surgical Health Initiative (ISHI). We thank the surgical teams at Kabala Government Hospital (Sierra Leone) and Tetteh Quarshie Memorial Hospital (Ghana), and the ISHI volunteers whose records made this work possible.
