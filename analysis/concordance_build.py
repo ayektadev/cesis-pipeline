@@ -597,7 +597,7 @@ def main():
         d=core.copy(); d["agree_i"]=d.agree.astype(int)
         d["ext_week"]=(pd.to_datetime(d.extracted)-pd.Timestamp("2026-08-10")).dt.days/7
         for scope,g in [("All trips",d)]+list(d.groupby("site",sort=False)):
-            for term,form,unit in [("year","agree_i ~ year + C(variable)","per calendar year of the mission"),
+            for term,form,unit in [("year","agree_i ~ year + C(variable)","per calendar year of the trip"),
                                    ("ext_week","agree_i ~ ext_week + C(variable)","per week later the trip was run"),
                                    ]:
                 if scope=="All trips": form=form+" + C(site)"
