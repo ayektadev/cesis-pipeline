@@ -1,0 +1,23 @@
+{
+  "mission_name": "Sierra Leone 2019",
+  "site": "Sierra Leone",
+  "year": 2019,
+  "mrn_prefix": "SL19",
+  "form_template": "ISHI-2019",
+  "date_window": [
+    "2019-12-01",
+    "2019-12-31"
+  ],
+  "roster": {
+    "surgeons": [],
+    "assistants": [],
+    "anesthesiologists": [],
+    "crnas": []
+  },
+  "output_xlsx": "ISHI_Case_Log_Sierra_Leone_2019.xlsx",
+  "extraction_hints": [
+    "The RN Notes/Orders/Discharge form's printed 'Discharge Orders' block reads 'Follow up ______' (a single blank line), NOT the 'Follow up on ______ at ______' two-part phrasing that later missions' forms use and that RULES.md's discharge-vs-followup-date guidance was written against. Confirmed on all 3 sample packets (SL19-902, SL19-903, SL19-904). The field still means the same thing (a future outpatient appointment, not the discharge date), so the existing extraction logic should still apply correctly, but flagging here in case the model's guidance -- which describes the specific two-part phrase -- needs a mission-specific nudge if the vet run shows it getting confused."
+  ],
+  "extraction_hints_TEMPLATE_NOTE": "Leave extraction_hints as just the one hint above until the vet run surfaces a real misread; add the specific rule then rather than guessing from later missions' hints.",
+  "_calibration": "Calibrated from sample packets before the full run (calibration notes withheld from the public release)."
+}

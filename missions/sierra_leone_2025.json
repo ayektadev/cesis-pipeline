@@ -1,0 +1,26 @@
+{
+  "mission_name": "Sierra Leone 2025",
+  "site": "Sierra Leone",
+  "year": 2025,
+  "mrn_prefix": "SL25",
+  "form_template": "ISHI-2025",
+  "date_window": [
+    "2025-12-01",
+    "2025-12-31"
+  ],
+  "roster": {
+    "surgeons": [],
+    "assistants": [],
+    "anesthesiologists": [],
+    "crnas": []
+  },
+  "output_xlsx": "ISHI_Case_Log_Sierra_Leone_2025.xlsx",
+  "extraction_hints": [
+    "Dates on this mission are written US-style, MONTH first: 12/8/25 is 8 December 2025, not 12 August. The one exception is the Pre-Anesthesia Assessment, which is often completed by local staff writing DAY first (7-12-25 = 7 December 2025). On that form only, transcribe the digits in the order written and say so in flag_reason rather than converting.",
+    "Staff on the OR Record and on the H&P 'Attending Surgeon' line are PRINTED INITIALS with tick boxes, not handwriting. Surgeon: DHL / AG / AK / FA / ZS. Assistant: KL. Anesthesiologist/CRNA: AZ / JQ / PK. Report the initials of the box that is ticked or circled. Each row also has an 'Other:' write-in line -- if that is used, report what is written there instead.",
+    "The Brief Op Note block on the H&P carries handwritten FULL NAMES on its 'Surgeon/Assistant' and 'Anesthesia/anesthesiologist' lines (e.g. SURNAME/SURNAME). Those are a separate field from the ticked initials. Transcribe them verbatim; do NOT expand initials into names or abbreviate names into initials.",
+    "The H&P carries a printed 'Clinical classification for inguinal hernia' table (H1-H4 size, F1-F4 subscapular skin-fold, and a/b/c inguinoscrotal component for H3 and H4). The grade may be circled in that table, written on the 'Post op Dx/Operative Findings/Hernia Class' line, or both. Report what is actually marked; never derive an H grade from a description or an F grade from a millimetre measurement.",
+    "Packets in this mission usually contain 11 pages in this order: Post-Op Visit, H&P, Consent, Pre-Anesthesia Assessment, Anesthesia Record, OR Record, PACU Orders, PACU Flowsheet, Floor Flowsheet, Progress Notes, RN Notes/Orders/Discharge. Page order is a hint only -- always classify by what is printed on the page.",
+    "'Out of room' on the OR Record is frequently blank on this mission. Leave it null; do not substitute the Anesthesia End time."
+  ]
+}

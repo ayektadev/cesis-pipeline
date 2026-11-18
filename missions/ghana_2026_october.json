@@ -1,0 +1,32 @@
+{
+  "mission_name": "Ghana 2026 (October)",
+  "site": "Ghana",
+  "year": 2026,
+  "mrn_prefix": "GH26O",
+  "form_template": "ISHI-2025",
+  "date_window": [
+    "2026-09-25",
+    "2026-10-31"
+  ],
+  "roster": {
+    "surgeons": [],
+    "assistants": [],
+    "anesthesiologists": [],
+    "crnas": []
+  },
+  "output_xlsx": "ISHI_Case_Log_Ghana_2026_October.xlsx",
+  "extraction_hints": [
+    "The MRN on this mission's paper is written as 'G26OCT-NN', '#G26Oct-NN' or abbreviated 'G26-NN'; all refer to the same patient number NN.",
+    "Dates on this mission are normally MM/DD/YY (e.g. 10/5/26 = 5 October 2026), BUT some nursing staff wrote DD/MM/YY (e.g. Nursing Orders '5/10/26' and a Floor Flowsheet margin note '6/10/26' meaning 5-6 October). The whole mission ran in late September to October 2026; if a date only makes sense read as DD/MM, transcribe it exactly as written and say so in flag_reason -- never silently swap day and month.",
+    "Attending Surgeon on the H&P is a row of printed initials 'ZS KK AS DW RD AA' with one circled. The OR Record has checkbox rows: Surgeon ZS/KK/AA/AS/RD/DW, Assistant SLJ/KG/CW/MP/OS/ED, Anesthesiologist/CRNA JQ/MM/PK/BBU, CRNA Student AA/MS, each with an 'Other:' line.",
+    "The H&P's 'Clinical classification for inguinal hernia' table: the H grade may be circled in the table AND/OR handwritten underneath it with a letter suffix (e.g. 'H3a', where a/b/c = inguinoscrotal component <10 / 10-20 / >20 cm). Report the letter suffix as inguinoscrotal_component when present.",
+    "A 'EuraHS-QoL Preoperative Questionnaire' page (patient-completed 0-10 circled grids) may appear, often rotated 90 degrees. It is not an H&P and not a Pre-Anesthesia page.",
+    "A Bard Mesh product sticker (REF / LOT / expiry dates) may be stuck on the OR Record; it is evidence that mesh was used, but its printed dates are manufacture/expiry dates, NOT the surgery date."
+  ],
+  "reconcile_options": {
+    "chronological_or_order": true,
+    "or_record_timing_fallback": true,
+    "drop_same_day_postop_visits": true
+  },
+  "_calibration": "Calibrated from sample packets before the full run (calibration notes withheld from the public release)."
+}

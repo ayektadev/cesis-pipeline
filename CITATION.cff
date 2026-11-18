@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below and the software version you used."
+title: "CESIS chart-recovery pipeline (ISHI edition)"
+version: "1.0.0"
+date-released: "2026-11-18"
+license: Apache-2.0
+repository-code: "https://github.com/ayektadev/cesis-pipeline"
+type: software
+abstract: >-
+  Open-source pipeline that converts scanned handwritten surgical charts into a
+  structured case log, using on-device OCR page classification, form-specific
+  vision-language-model extraction, and rule-based reconciliation.
+keywords:
+  - global surgery
+  - medical records
+  - optical character recognition
+  - vision-language model
+  - low- and middle-income countries
+authors:
+  - family-names: Faizullabhoy
+    given-names: Ebrahim
+    orcid: "https://orcid.org/0009-0003-8397-0706"
+    affiliation: "Rutgers New Jersey Medical School"
+preferred-citation:
+  type: article
+  title: "Closing the Surgical Data Gap: Low-Cost Recovery of Handwritten Records from Short-Term Surgical Trips to Sierra Leone and Ghana"
+  authors:
+    - family-names: Faizullabhoy
+      given-names: Ebrahim
+      orcid: "https://orcid.org/0009-0003-8397-0706"
+    - family-names: Grotheer
+      given-names: Kristen
+    - family-names: Alvarado
+      given-names: Francisco
+    - family-names: Berry
+      given-names: Cherisse
+    - family-names: Sifri
+      given-names: Ziad
+  year: 2026
+  notes: "Manuscript in preparation."

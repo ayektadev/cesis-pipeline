@@ -1,0 +1,23 @@
+{
+  "mission_name": "Sierra Leone 2022",
+  "site": "Sierra Leone",
+  "year": 2022,
+  "mrn_prefix": "SL22",
+  "form_template": "ISHI-2019",
+  "date_window": [
+    "2022-12-01",
+    "2022-12-31"
+  ],
+  "roster": {
+    "surgeons": [],
+    "assistants": [],
+    "anesthesiologists": [],
+    "crnas": []
+  },
+  "output_xlsx": "ISHI_Case_Log_Sierra_Leone_2022.xlsx",
+  "extraction_hints": [
+    "On SL22-905, the H&P page's handwritten MRN box reads 'SL22-906' -- every other page in the same packet (Pre-Anesthesia Eval, Anesthesia Record, OR Record, PACU Orders, PACU Flowsheet, Floor Flowsheet, RN Discharge, Post-Op Visit) reads 'SL22-905', matching the filename. Treat the H&P page's ID as a stray-digit misread and keep the packet as SL22-905, not a new/second patient."
+  ],
+  "extraction_hints_TEMPLATE_NOTE": "Leave extraction_hints empty (beyond the SL22-905 ID note above) until the vet run surfaces a real misread; add the specific rule then rather than guessing from SL23/24/25's hints.",
+  "_calibration": "Calibrated from sample packets before the full run (calibration notes withheld from the public release)."
+}

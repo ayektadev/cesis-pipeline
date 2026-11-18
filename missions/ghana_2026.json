@@ -1,0 +1,20 @@
+{
+  "mission_name": "Ghana 2026 (May)",
+  "site": "Ghana",
+  "year": 2026,
+  "mrn_prefix": "GH26M",
+  "form_template": "ISHI-2025",
+  "date_window": [
+    "2026-04-15",
+    "2026-05-31"
+  ],
+  "roster": {
+    "surgeons": [],
+    "assistants": [],
+    "anesthesiologists": [],
+    "crnas": []
+  },
+  "output_xlsx": "ISHI_Case_Log_Ghana_2026.xlsx",
+  "extraction_hints": [],
+  "_calibration": "Calibrated from sample packets before the full run (calibration notes withheld from the public release)."
+}

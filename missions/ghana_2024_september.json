@@ -1,0 +1,20 @@
+{
+  "mission_name": "Ghana 2024 (September)",
+  "site": "Ghana",
+  "year": 2024,
+  "mrn_prefix": "GH24",
+  "form_template": "ISHI-2019",
+  "date_window": [
+    "2024-08-15",
+    "2024-10-15"
+  ],
+  "roster": {
+    "surgeons": [],
+    "assistants": [],
+    "anesthesiologists": [],
+    "crnas": []
+  },
+  "output_xlsx": "ISHI_Case_Log_Ghana_2024_September.xlsx",
+  "extraction_hints": [],
+  "_calibration": "Calibrated from sample packets before the full run (calibration notes withheld from the public release)."
+}

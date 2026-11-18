@@ -1,0 +1,25 @@
+{
+  "mission_name": "Ghana 2016",
+  "site": "Ghana",
+  "year": 2016,
+  "mrn_prefix": "GH16",
+  "form_template": "ISHI-2019",
+  "date_window": [
+    "2016-08-15",
+    "2016-11-15"
+  ],
+  "roster": {
+    "surgeons": [],
+    "assistants": [],
+    "anesthesiologists": [],
+    "crnas": []
+  },
+  "output_xlsx": "ISHI_Case_Log_Ghana_2016.xlsx",
+  "extraction_hints": [
+    "On the H&P 'Surgeon:' tick-box/circle line, the printed options on this mission are RC / DC / KC / ZS. Report whichever is circled/ticked exactly as printed -- do not expect any other initials.",
+    "On this mission's OR Record page, the 'Surgeon:', 'Assistant:', and 'Anesthesiologist/CRNA:' fields are BLANK FREE-TEXT signature lines with NO printed checkbox initials -- unlike other Ghana missions where the OR Record repeats checkbox rows. Transcribe whatever name(s) are handwritten there as free text; do not expect or search for tick-box initials on the OR Record for these two roles.",
+    "Some packets on this mission are short (e.g. GH16-907, a minor local-anesthesia procedure) and may lack an OR Record, Anesthesia Record, or PACU Flowsheet page entirely. Leave those fields blank/flagged as usual rather than guessing.",
+    "Floor Flowsheet 'Date/Time Arrived' and 'Date/Time Discharged' do NOT reliably follow one day/month convention across packets, unlike the rest of this mission's forms (which are month-first). Auto-detected from the vetted sample: 1 Floor Flowsheet date value(s) only fell inside the mission window when read day-first, and fell outside it read the normal month-first way. When a Floor Flowsheet date looks like it's outside the mission window, check whether the day-first reading puts it back inside the window before treating it as a documentation error -- but always TRANSCRIBE exactly what is written on the page and flag it for human review; never silently swap day and month (RULES.md rule 18)."
+  ],
+  "_calibration": "Calibrated from sample packets before the full run (calibration notes withheld from the public release)."
+}

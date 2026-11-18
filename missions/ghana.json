@@ -1,0 +1,17 @@
+{
+  "mission_name": "Ghana",
+  "site": "Ghana",
+  "year": null,
+  "mrn_prefix": "GH",
+  "date_window": [
+    "FILL-IN-FROM-SAMPLE-PACKETS",
+    "FILL-IN-FROM-SAMPLE-PACKETS"
+  ],
+  "roster": {
+    "crnas": [],
+    "anesthesiologists": [],
+    "surgeons": []
+  },
+  "output_xlsx": "ISHI_Case_Log_Ghana.xlsx",
+  "extraction_hints": []
+}

@@ -1,0 +1,29 @@
+{
+  "mission_name": "Ghana 2014",
+  "site": "Ghana",
+  "year": 2014,
+  "mrn_prefix": "GH14",
+  "form_template": "ISHI-2015",
+  "date_window": [
+    "2014-08-01",
+    "2014-11-15"
+  ],
+  "roster": {
+    "surgeons": [],
+    "assistants": [],
+    "anesthesiologists": [],
+    "crnas": []
+  },
+  "output_xlsx": "ISHI_Case_Log_Ghana_2014.xlsx",
+  "extraction_hints": [
+    "This mission's form set ('ISHI-2015', shared with the Ghana 2015 mission) has the History and Physical and the Brief Op Note combined onto a single page -- read both sets of fields from that one page.",
+    "No checkbox/tick-box roster was observed on any of the 3 sample packets for Surgeon, Assistant, Anesthesiologist, or CRNA -- treat these as free-text handwritten name lines unless the vet run surfaces a checkbox elsewhere.",
+    "PAGE ORDER VARIES PER PACKET on this mission (confirmed: GH14-903's page 5 = Anesthesia Record, GH14-906's/GH14-907's page 5 = OR Record). Identify each page by its printed header/title text, never by a fixed page index.",
+    "Packet length varies: most packets are 8pp (H&P/Brief Op Note, Consent, PACU Flowsheet, OR Record, Anesthesia Record, Pre-Anesthesia Eval, Orders, Notes) but some (e.g. GH14-905, 6pp) are missing the OR Record/PACU/Anesthesia Record/Orders/Notes pages entirely -- leave those fields blank rather than flagging as a scan error.",
+    "Blank, unused padding pages appear within packets (e.g. between H&P and Consent) -- normal, not a scanning error.",
+    "H&P/Consent/Pre-Anesthesia-Eval are frequently dated 8/17/14 (mass intake/registration day) even when the actual OR procedure happened several days later (8/18-8/22/14). Prefer the OR Record/Anesthesia Record/PACU Flowsheet date as the procedure date, not the H&P/Consent date.",
+    "4 files (GH14-906, GH14-907, GH14-908, GH14-909) originally had no printed MRN on the paper forms and were renamed/assigned their MRN based on chronological evidence rather than a printed number; the assigned number was hand-annotated onto the scanned MRN box on every page of these files. Flag these 4 MRNs as externally-assigned (not originally printed) in the case log rather than treating them identically to a printed MRN.",
+    "Roster names are expected to show heavy OCR/handwriting fragmentation (e.g. 'Surname' vs 'Surname, Given', 'Surname' vs 'K. Surname' vs 'Surname, Given') -- transcribe what's written, use roster only as a sanity check, never force-match."
+  ],
+  "_calibration": "Calibrated from sample packets before the full run (calibration notes withheld from the public release)."
+}

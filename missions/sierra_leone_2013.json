@@ -1,0 +1,20 @@
+{
+  "mission_name": "Sierra Leone 2013",
+  "site": "Sierra Leone",
+  "year": 2013,
+  "mrn_prefix": "SL13",
+  "form_template": "ISHI-2019",
+  "date_window": [
+    "2013-10-15",
+    "2013-12-15"
+  ],
+  "roster": {
+    "surgeons": [],
+    "assistants": [],
+    "anesthesiologists": [],
+    "crnas": []
+  },
+  "output_xlsx": "ISHI_Case_Log_Sierra_Leone_2013.xlsx",
+  "extraction_hints": [],
+  "_calibration": "Calibrated from sample packets before the full run (calibration notes withheld from the public release)."
+}

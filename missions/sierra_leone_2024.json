@@ -1,0 +1,23 @@
+{
+  "mission_name": "Sierra Leone 2024",
+  "site": "Sierra Leone",
+  "year": 2024,
+  "mrn_prefix": "SL24",
+  "form_template": "ISHI-2024",
+  "date_window": [
+    "2024-12-01",
+    "2024-12-31"
+  ],
+  "roster": {
+    "surgeons": [],
+    "assistants": [],
+    "anesthesiologists": [],
+    "crnas": []
+  },
+  "output_xlsx": "ISHI_Case_Log_Sierra_Leone_2024.xlsx",
+  "extraction_hints": [
+    "Floor Flowsheet 'Date/Time Arrived' and 'Date/Time Discharged' do NOT reliably follow one day/month convention across packets, unlike the rest of this mission's forms (which are month-first). Auto-detected from the vetted sample: 1 Floor Flowsheet date value(s) only fell inside the mission window when read day-first, and fell outside it read the normal month-first way. When a Floor Flowsheet date looks like it's outside the mission window, check whether the day-first reading puts it back inside the window before treating it as a documentation error -- but always TRANSCRIBE exactly what is written on the page and flag it for human review; never silently swap day and month (RULES.md rule 18)."
+  ],
+  "extraction_hints_TEMPLATE_NOTE": "Leave extraction_hints empty until the vet run surfaces a real misread (e.g. a date-order mixup, a mis-boxed timing field, or a form quirk); add the specific rule then rather than guessing from SL25's hints.",
+  "_calibration": "Calibrated from sample packets before the full run (calibration notes withheld from the public release)."
+}

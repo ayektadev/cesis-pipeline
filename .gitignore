@@ -1,0 +1,30 @@
+# Secrets
+api_key.txt
+.env
+
+# Patient data and outputs: never commit
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.heic
+raw_json_output/
+_page_images/
+*_case_log*.xlsx
+*Case_Log*.xlsx
+*VET*.xlsx
+*.log
+hand_logs/
+out/
+Legacy */
+!examples/SAMPLE_case_log.xlsx
+
+# Python / OS
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.DS_Store

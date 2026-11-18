@@ -1,0 +1,29 @@
+{
+  "_readme": [
+    "Copy this file to e.g. ghana_2025.json and fill it in BEFORE running a new mission.",
+    "Everything mission-specific lives HERE, never in RULES.md or the code --",
+    "that is what keeps stale Peru facts (dates, staff names, form quirks) from",
+    "contaminating a Ghana run. Build this file during CALIBRATION: open 2-3",
+    "sample packets, confirm which forms exist and where the timing boxes sit,",
+    "note the real date range and staff names, THEN fill this in.",
+    "If the new mission's forms differ from the ISHI Peru template (different",
+    "boxes/labels), also update the form-layout text in extract.py's",
+    "TIMING_FORM_LAYOUT to match what the forms actually look like."
+  ],
+  "mission_name": "Ghana 20XX",
+  "site": "Ghana",
+  "year": 2025,
+  "mrn_prefix": "GH25",
+  "date_window": [
+    "2025-01-01",
+    "2025-01-07"
+  ],
+  "roster": {
+    "crnas": [],
+    "anesthesiologists": [],
+    "surgeons": []
+  },
+  "output_xlsx": "ISHI_Case_Log_Ghana_20XX.xlsx",
+  "extraction_hints": [],
+  "notes": "Fill roster/dates from actual sample packets, not from memory. Roster is a sanity check only -- never force a handwritten name to match it."
+}

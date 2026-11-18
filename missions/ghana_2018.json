@@ -1,0 +1,25 @@
+{
+  "mission_name": "Ghana 2018",
+  "site": "Ghana",
+  "year": 2018,
+  "mrn_prefix": "GH18",
+  "form_template": "ISHI-2019",
+  "date_window": [
+    "2018-08-15",
+    "2018-11-15"
+  ],
+  "roster": {
+    "surgeons": [],
+    "assistants": [],
+    "anesthesiologists": [],
+    "crnas": []
+  },
+  "output_xlsx": "ISHI_Case_Log_Ghana_2018.xlsx",
+  "extraction_hints": [
+    "On the OR Record (and H&P) 'Attending Surgeon:' tick-box line, the printed options on this mission are KC / VB / ZS. Report whichever is ticked/circled exactly as printed -- do not expect any other initials (note: this is a 3-initial set, unlike some other Ghana missions which have a 4th 'AB' option).",
+    "On the OR Record 'Assistant:' tick-box line, the printed options on this mission are PJ / KK / AC / VP / AG. Report whichever is ticked exactly as printed -- do not expect any other initials.",
+    "On the OR Record 'Anesthesiologist/CRNA:' tick-box line, the printed options on this mission are PK / DA / W, plus a write-in 'Other:' line. Report whichever is ticked exactly as printed, or transcribe the write-in if 'Other' is used -- do not expect any other initials.",
+    "This mission's Anesthesia Record 'CRNA/Resident (Print)' handwritten name reads a single name on the sample packets, consistent with the 'DA' tick-box option -- treat this as a sanity-check signal only, never force a match if the handwriting looks different on a given packet."
+  ],
+  "_calibration": "Calibrated from sample packets before the full run (calibration notes withheld from the public release)."
+}

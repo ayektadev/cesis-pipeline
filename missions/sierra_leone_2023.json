@@ -1,0 +1,21 @@
+{
+  "mission_name": "Sierra Leone 2023",
+  "site": "Sierra Leone",
+  "year": 2023,
+  "mrn_prefix": "SL23",
+  "form_template": "ISHI-2024",
+  "date_window": [
+    "2023-12-01",
+    "2023-12-31"
+  ],
+  "roster": {
+    "surgeons": [],
+    "assistants": [],
+    "anesthesiologists": [],
+    "crnas": []
+  },
+  "output_xlsx": "ISHI_Case_Log_Sierra_Leone_2023.xlsx",
+  "extraction_hints": [],
+  "extraction_hints_TEMPLATE_NOTE": "Leave extraction_hints empty until the vet run surfaces a real misread (e.g. a date-order mixup, a mis-boxed timing field, or a form quirk); add the specific rule then rather than guessing from SL24/SL25's hints.",
+  "_calibration": "Calibrated from sample packets before the full run (calibration notes withheld from the public release)."
+}

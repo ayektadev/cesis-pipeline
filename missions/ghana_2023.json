@@ -1,0 +1,22 @@
+{
+  "mission_name": "Ghana 2023",
+  "site": "Ghana",
+  "year": 2023,
+  "mrn_prefix": "GH23",
+  "form_template": "ISHI-2019",
+  "date_window": [
+    "2023-08-15",
+    "2023-10-15"
+  ],
+  "roster": {
+    "surgeons": [],
+    "assistants": [],
+    "anesthesiologists": [],
+    "crnas": []
+  },
+  "output_xlsx": "ISHI_Case_Log_Ghana_2023.xlsx",
+  "extraction_hints": [
+    "Floor Flowsheet 'Date/Time Arrived' and 'Date/Time Discharged' do NOT reliably follow one day/month convention across packets, unlike the rest of this mission's forms (which are month-first). Auto-detected from the vetted sample: 2 Floor Flowsheet date value(s) only fell inside the mission window when read day-first, and fell outside it read the normal month-first way. When a Floor Flowsheet date looks like it's outside the mission window, check whether the day-first reading puts it back inside the window before treating it as a documentation error -- but always TRANSCRIBE exactly what is written on the page and flag it for human review; never silently swap day and month (RULES.md rule 18)."
+  ],
+  "_calibration": "Calibrated from sample packets before the full run (calibration notes withheld from the public release)."
+}

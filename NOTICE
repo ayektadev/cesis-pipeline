@@ -1,0 +1,13 @@
+CESIS chart-recovery pipeline (ISHI edition)
+Copyright 2026 Ebrahim Faizullabhoy and contributors
+
+This product was developed for the International Surgical Health Initiative
+(ISHI) and the Center for Global Surgery, Rutgers New Jersey Medical School.
+
+If you use this software in academic work, please cite:
+
+  Faizullabhoy E, Grotheer K, Alvarado F, Berry C, Sifri Z. Closing the
+  Surgical Data Gap: Low-Cost Recovery of Handwritten Records from Short-Term
+  Surgical Trips to Sierra Leone and Ghana. Manuscript in preparation, 2026.
+
+Source: https://github.com/ayektadev/cesis-pipeline

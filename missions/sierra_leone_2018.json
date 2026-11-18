@@ -1,0 +1,20 @@
+{
+  "mission_name": "Sierra Leone 2018",
+  "site": "Sierra Leone",
+  "year": 2018,
+  "mrn_prefix": "SL18",
+  "form_template": "ISHI-2019",
+  "date_window": [
+    "2018-11-15",
+    "2019-01-15"
+  ],
+  "roster": {
+    "surgeons": [],
+    "assistants": [],
+    "anesthesiologists": [],
+    "crnas": []
+  },
+  "output_xlsx": "ISHI_Case_Log_Sierra_Leone_2018.xlsx",
+  "extraction_hints": [],
+  "_calibration": "Calibrated from sample packets before the full run (calibration notes withheld from the public release)."
+}
